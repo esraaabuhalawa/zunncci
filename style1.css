@@ -1,0 +1,124 @@
+body{
+	font-family: Arial;
+}
+/*#1 start of top information Part*/
+.top-info{background-color:#4a2b17;}
+.top-info span{
+	padding: 3px;
+	font-size: 12px;
+	color: #d5ae84;
+	font-family: 'Prompt', sans-serif;
+}
+/*#1 End of top information Part*/
+/*#2 Start of Header Part*/
+header{
+	background-image:url('proj3/images/cover5.png');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+header .btn{
+	text-transform: uppercase;
+	border-radius: 25px;
+	padding: 5px 20px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #4a2b17;
+	background-color: #f2f2f2;
+	margin: 0;
+  	position: absolute;
+  	right: 45%;
+  	top:75%
+ }
+ header nav button{
+ 	padding: 40px;
+ 	background-color: #fff;
+
+ }
+/*#2 End of Header Part*/
+/*#3 Start of Nav part*/
+.navbar-light .navbar-nav .nav-link{
+	color: #f2f2f2;
+	padding-left: 20px;
+	font-family: 'Prompt', sans-serif;
+	padding-right: 0;
+	font-size: 15px;
+	margin-top: 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover{color: #d5ae84;}
+/*#3 End of Nav part*/
+.delivery .row{padding-top: 80px;padding-bottom: 70px;}
+.delivery .row .col h2,footer .part2 h5{color:#f3cb6d;}
+.delivery .row .col h2{font-family: 'UnifrakturMaguntia', cursive;}
+.delivery .row .col p{
+	color: #bb8d62;
+	font-size: 17px;
+}
+.delivery{
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/bg2.jpeg');
+	background-size: cover;
+}
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;
+}
+/*#5 Start of Footer part*/
+footer{
+	background-image:url('images/pasta2.png');
+	background-size: cover;
+	background-position: center;
+	color: #bb8d62;
+	font-size: 17px;
+}
+footer .part1{
+	background-color: #000;
+	opacity: 0.8;
+	padding-bottom: 20px;
+}
+footer .part1 .social blockquote,footer .part1 .social .social-logo a{color: #e8c7a7;}
+footer .part1 .social blockquote h4{margin-top:3%;}
+footer .part1 .social .social-logo{padding-bottom: 5%;margin-top: 2%;}
+footer .part1 .social .social-logo a{
+	font-size: 23px;
+	margin-right: 8px;
+	
+}
+
+footer .part1 .social .social-logo a:hover,footer .part2 ul li a:hover{color: #e2aa74;}
+footer .part1,footer .part2{padding-top:20px;padding-bottom: 20px;}
+footer .part2{background-color: #75401df7;opacity: 0.9;}
+footer .part2 ul li{list-style-type: none;}
+footer .part2 ul li a,footer .part2 .row .col{color:#d5ae84}
+footer .part3{background-color: #333;}
+/*#5 End of Footer part*/
+  
+ @media only screen and (min-width: 33.9em) { 
+	header{
+  	background-image:url('images/cover5.png');
+	height: 50vh;
+}
+	header .btn{top:34%;}
+}
+@media only screen and (min-width: 47.9em) {
+	header{
+  	background-image:url('images/cover5.png');
+	height: 50vh;
+}
+	header .btn{top:34%;}
+	
+}
+@media only screen and (min-width: 61.9em) {
+	header{
+  	background-image:url('images/cover5.png');
+	height: 50vh;
+}
+	header .btn{top:34%;}
+}
+@media only screen and (min-width: 74.9em) { 
+	header{
+  	background-image:url('images/cover5.png');
+	height: 100vh;
+}
+header .btn{top:66%;}
+}
